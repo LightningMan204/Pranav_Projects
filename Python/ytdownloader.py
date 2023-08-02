@@ -13,4 +13,4 @@ print("Views: ", yt.views)
 
 yd = yt.streams.get_highest_resolution()
 
-yd.download('/Applications/Games/Recordings/YT downloads')
+yd.download('Your foder dir')
