@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int main(double pi, double rad){
-    pi = 3.141592653;
+int main(){
+    double rad;
+    double pi = 3.141592653;
     string verse = "Im the king of NYC";
-    rad = 5.5;
+    cout << "What do you wan the radius to be? ";
+    cin >> rad;
     double circumference = 2 * pi * rad;
     cout << "pi =" << endl;
 
