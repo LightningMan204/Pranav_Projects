@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     double rad;
-    double pi = 3.141592653;
+    double pi = 3.1415926535;
     string verse = "Im the king of NYC";
     cout << "What do you wan the radius to be? ";
     cin >> rad;
