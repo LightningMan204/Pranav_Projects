@@ -1,9 +1,24 @@
 #include <iostream>
 using namespace std;
 
+void area(){
+    string yn;
+    cout << "Do you want to calculate the area of the circle? y or n\n";
+    cin >> yn;
+    switch(yn){
+        case "y":
+       
+    }
+}
+
+
+
+
+
+
 int main(){
     double rad;
-    double pi = 3.1415926535;
+    double pi = 3.141592653589793;
     string verse = "Im the king of NYC";
     cout << "What do you wan the radius to be? ";
     cin >> rad;
