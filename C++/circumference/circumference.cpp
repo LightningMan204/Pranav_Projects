@@ -20,7 +20,7 @@ int main(){
     double rad;
     double pi = 3.141592653589793;
     string verse = "Im the king of NYC";
-    cout << "What do you wan the radius of the circle to be? ";
+    cout << "What do you want the radius of the circle to be? ";
     cin >> rad;
     double circumference = 2 * pi * rad;
     cout << "pi =" << endl;
